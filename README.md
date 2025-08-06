@@ -5,13 +5,7 @@ This repository provides a Python implementation of a Quantitative Structure–R
 ---
 
 ## Repository Structure
-qsrr-model/
-<pre>├── data/ # database (SMILES + RI)
-<pre>├── notebooks/ # Jupyter notebooks for training, prediction, comparison
-<pre>├── environment.yml # Conda environment file
-<pre>├── README.md # Project documentation
-<pre>├── LICENSE # Project license (MIT)
-<pre>└── .gitignore # Files/folders ignored by Git
+<pre> qsrr-model/ ├── data/ # Database (SMILES + RI) ├── notebooks/ # Jupyter notebooks for training, prediction, comparison ├── src/ # Python scripts (model functions, utilities) ├── environment.yml # Conda environment file ├── README.md # Project documentation ├── LICENSE # Project license (MIT) └── .gitignore # Files/folders ignored by Git </pre>
 
 
 ---
@@ -96,5 +90,6 @@ conda activate qsrr_env
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
+
 
 
